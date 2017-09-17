@@ -15,7 +15,7 @@ def read_text():
     check(contents_of_file)
 
 def check(text_to_check):
-    connection = urlib.urlopen(http://www.wdly.com/profanity?q=+text_to_check)
+    connection = urlib.urlopen(http://www.wdly.com/profanity/?q=+text_to_check)
     output = connection.read()
     print(output)
     connection.close()
