@@ -3,6 +3,7 @@
 #To detect curse word
 #use wdly.com to detect this
 #e.g:- http://www.wdly.com/profanity?q=shit return true
+#this is commnet for hackoctober fest
 
 import urlib
 def read_text():
